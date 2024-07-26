@@ -11,7 +11,9 @@ const decodeTheRing = function (s, p) {
     dp[0][j] = dp[0][j-1];
   }
  }
- for(let i=1;i<=m;i++)
+ for(let i=1;i<=m;i++){
+  
+ }
 
   };
   
