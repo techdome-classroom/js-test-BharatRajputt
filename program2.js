@@ -4,7 +4,8 @@ const decodeTheRing = function (s, p) {
 
 
  const dp = Array.from({length:m+1},()=>Array(n+1).fill(false));
- dp[][0]
+ dp[0][0] = true;
+ 
 
   };
   
