@@ -14,7 +14,9 @@ const getTotalIsles = function (grid) {
     }
     grid[row][col]='W'
 
-    dfs(row-1,col)
+    dfs(row-1,col);
+    dfs(row+1,col)
+    dfs(row,col-1)
   }
   
 };
