@@ -9,7 +9,7 @@ const getTotalIsles = function (grid) {
   let isLandCount = 0;
 
   const dfs = (row,col)=>{
-    if(row<0 ||col<0 || row>=rows || col >= cols)
+    if(row<0 ||col<0 || row>=rows || col >= cols || grid[row])
   }
   
 };
