@@ -13,6 +13,8 @@ const getTotalIsles = function (grid) {
       return;
     }
     grid[row][col]='W'
+
+    dfs(row-1,col)
   }
   
 };
