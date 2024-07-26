@@ -3,7 +3,8 @@ const decodeTheRing = function (s, p) {
  const n = p.length;
 
 
- const dp = Array.from({length:m+1},()=>Array(n+1).fill)
+ const dp = Array.from({length:m+1},()=>Array(n+1).fill(false));
+ 
 
   };
   
