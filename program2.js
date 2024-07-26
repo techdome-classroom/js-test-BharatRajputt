@@ -7,7 +7,7 @@ const decodeTheRing = function (s, p) {
  dp[0][0] = true;
 
  for(let j = 1; j<=n;j++){
-  if
+  if(p[j-1])
  }
 
   };
