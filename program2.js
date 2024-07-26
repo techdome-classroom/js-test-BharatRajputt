@@ -8,7 +8,7 @@ const decodeTheRing = function (s, p) {
 
  for(let j = 1; j<=n;j++){
   if(p[j-1]==='*'){
-    dp[0][j] = dp
+    dp[0][j] = dp[0][j-1];
   }
  }
 
