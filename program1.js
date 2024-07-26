@@ -1,7 +1,7 @@
 const getTotalIsles = function (grid) {
 
-const describe ()=>{
-  
+const describe=()=>{
+console.log(grid);
 }
 
 };
