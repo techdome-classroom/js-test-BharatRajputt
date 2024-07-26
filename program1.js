@@ -4,7 +4,10 @@ const getTotalIsles = function (grid) {
     return 0;
   }
 
-  const rows = grid.length
+  const rows = grid.length;
+  const cols = grid[0].length
+  let isLandCount = 0;
+  
   
 };
 
